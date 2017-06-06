@@ -1,0 +1,38 @@
+﻿ [
+      {
+        "name": "Custard",
+        "cost": 8.6,
+        "src": "images/dessert01.jpg",
+        "q": 0
+      },
+      {
+        "name": "Chocolate",
+        "cost": 7.98,
+        "src": "images/dessert02.jpg",
+        "q": 0
+      },
+      {
+        "name": "cheese cake",
+        "cost": 6.88,
+        "src": "images/dessert03.jpg",
+        "q": 0
+      },
+      {
+        "name": "Peanut Butter",
+        "cost": 7.3,
+        "src": "images/dessert04.jpg",
+        "q" : 0
+      },
+      {
+        "name": "Coffee",
+        "cost": 9.3,
+        "src": "images/dessert04.jpg",
+        "q": 0
+      }
+
+    ]
+
+
+
+
+

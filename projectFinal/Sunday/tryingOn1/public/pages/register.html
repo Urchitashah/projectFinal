@@ -1,0 +1,32 @@
+﻿
+
+
+   <!-- <form ng-controller="addUser" ng-submit="save()">
+        <ul class="form-style-1">
+            <li><label>Full Name <span class="required">*</span></label><input ng-model="firstName" type="text" name="field1" class="field-divided" placeholder="First" />&nbsp;<input type="text" name="field2" class="field-divided" placeholder="Last" ng-model="lastName" /></li>
+            <li>
+                <label>Email <span class="required">*</span></label>
+                <input type="email" name="field3" class="field-long" placeholder="Email" ng-model="email" />
+            </li>
+            <li>
+                <label>Password <span class="required">*</span></label>
+                <input type="password" name="field4" class="field-long" placeholder="Password" ng-model="password" />
+            </li>
+            <li>
+                <input type="submit" value="Submit" />
+            </li>
+        </ul>
+    </form> -->
+ 
+<form ng-controller="addUser" ng-submit="save()">
+     <ul class="form-style-1">
+   <li> <input placeholder="name" type="text" ng-model="name" /></li>
+   <li><input placeholder="email" type="text" ng-model="email" /></li> 
+  <li><input placeholder="password" type="password" ng-model="password" /></li>  
+    <li><input type="submit" value="Register" /></li>
+    {{message}}
+         </ul>
+</form> 
+
+
+

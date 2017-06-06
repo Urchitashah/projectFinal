@@ -1,0 +1,35 @@
+﻿ [
+        {
+            "name":"Cheese Lasagna",
+            "cost":"9.5",
+			"src":"images/Cheese Lasagna.jpg",
+			"q":0
+        },
+        {
+            "name":"Chicken Picante",
+            "cost":"8.2",
+			"src":"images/Chicken Picante.jpg",
+			"q":0
+        },
+		{
+            "name":"Fettuccini Alfredo",
+            "cost":"9.9",
+			"src":"images/Fettuccini Alfredo.jpg",
+			"q":0
+        },{
+            "name":"Sear Roasted Pork Loin",
+            "cost":"10.5",
+			"src":"images/Sear Roasted Pork Loin.jpg",
+			"q":0
+        },{
+            "name":"Shrimp Royale",
+            "cost":"11.2",
+			"src":"images/Shrimp Royale.jpg",
+			"q":0
+        },{
+            "name":"Veal Scallopini",
+            "cost":"7.8",
+			"src":"images/Veal Scallopini.jpg",
+			"q":0
+        }
+    ]

@@ -1,0 +1,40 @@
+﻿ [
+        {
+            "name":"Black Bean Skillet",
+            "cost":"10.5",
+			"src":"images/Black Bean Skillet.jpg",
+			"q":0
+        },
+  {
+    "name": "Boneless Pork Chops",
+    "cost": "11.8",
+    "src": "images/Boneless Pork Chops.jpg",
+    "q": 0
+  },
+  {
+            "name":"Broccoli Buddha Bowl",
+            "cost":"8.9",
+			"src":"images/Broccoli Buddha Bowl",
+			"q":0
+        },{
+            "name":"Pan Seared Salmon",
+            "cost":"9.5",
+			"src":"images/Pan Seared Salmon.jgp",
+			"q":0
+        },{
+            "name":"Rainbow Noodle Salad",
+            "cost":"7.9",
+			"src":"images/Rainbow Noodle Salad.jpg",
+			"q":0
+        },{
+            "name":"Spinach Enchiladas",
+            "cost":"10",
+			"src":"images/Spinach Enchiladas.jpg",
+			"q":0
+        },{
+            "name":"Palak Paneer",
+            "cost":"9.6",
+			"src":"images/Palak Paneer.jpg",
+			"q":0
+        }
+    ]

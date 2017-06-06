@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<head>
+    <script src="angular.js"></script>
+    <script src="angular-resource.js"></script>
+    <script src="angular-route.js"></script>
+    <script src="angular-ui-router.js"></script>
+    <script src="javascript/scripts.js"></script>
+    <base href="/" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="stylesheets/styles.css" rel="stylesheet" />
+</head>
+<body ng-app="restaurant">
+   <div id="page">
+        <div>
+                <div id="header">
+                    <a ui-sref="home" ui-sref-active="active"></a>
+                    <img src="images/logo.jpg" alt="Image" width="231" height="162">
+                    <nav>
+                        <ul>
+                            <li>
+                                <a ui-sref="home" ui-sref-active="active">Home</a>
+                            </li>
+                            <li>           
+                                <a ui-sref="menu" ui-sref-active="active">Menu</a>
+                            </li>
+                            <li>
+                                <a ui-sref="login" ui-sref-active="active">Login</a>
+                            </li>
+                            <li>
+                                <a ui-sref="cart" ui-sref-active="active">Cart</a>
+                            </li>
+                           
+                            <li>
+                                <a ui-sref="about" ui-sref-active="active">About</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <span id="userText"></span>
+        </div> 
+  <!--<header> <nav>
+        <a ui-sref="home" ui-sref-active="active">Home page</a>
+        <a ui-sref="menu" ui-sref-active="active">Users</a>
+        <a ui-sref="login" ui-sref-active="active">Food</a>
+    </nav>
+    </header> 
+    <main ui-view="main"></main> -->
+            <div id="body">
+                <div id="figure">
+
+                  
+                  <main ui-view="main">
+                      <img src="images/main1.jpg" alt="Image"> 
+                    </main>
+                    
+                </div>
+               
+                
+            </div>
+            <div id="footer">
+                <div>
+                    <a href="index.html">
+                        <img src="images/logo.jpg"  width="200" height="98" alt="Image"></a>
+                    <p class="footnote">
+                        &copy; Robins 2017.<br>All Rights Reserved.
+                    </p>
+                </div>
+                <div class="section">
+                    <ul>
+                        <li>
+                            <a ui-sref="home" ui-sref-active="active"></a>
+                        </li>
+                        <li>
+                            <a ui-sref="menu" ui-sref-active="active">Menu</a>
+                        </li>
+                        <li>
+                            <a ui-sref="login" ui-sref-active="active">Login</a>
+                        </li>
+                        <li>
+                            <a ui-sref="cart" ui-sref-active="active">Cart</a>
+                        </li>
+                        <li>
+                            <a ui-sref="about" ui-sref-active="active">About</a>
+                        </li>
+                    </ul>
+                    <div id="connect">
+                        <a href="http://www.facebook.com/" target="_blank" id="facebook">Facebook</a>
+                      
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

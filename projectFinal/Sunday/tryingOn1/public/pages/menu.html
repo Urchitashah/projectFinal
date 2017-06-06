@@ -1,0 +1,59 @@
+﻿<style>
+    #NW { top:0;   left:0;    }
+#NE { top:0;   left:50%;    }
+#SW { top:50%; left:0;     }
+#SE { top:50%; left:50%;     } 
+</style>
+
+
+<div id="body" ng-app="restaurant">
+    <div id="figure">
+        <img src="images/headline-menu.jpg" alt="Image">
+        <span>{{message}}</span>
+    </div>
+    <div>
+      
+        <div class="maindiv">
+            <div id="NW">
+                <a ui-sref="entree" ui-sref-active="active"><img src="images/entree.jpg" width="1000" height="300" alt="Image"></a>
+                <div>
+                    <a ui-sref="entree" ui-sref-active="active"><h1>Entree</h1></a>
+                    <h1>
+                        {{entreeMessage}}
+                    </h1>
+                </div>
+            </div>
+            <div id="NE">
+                <a ui-sref="mainCourse" ui-sref-active="active"></a><img src="images/maincourse.jpg" width="1000" height="300" alt="Image">
+                <div>
+                    <a ui-sref="mainCourse" ui-sref-active="active"><h1>Main Course</h1></a>
+                    <h1>some of the worlds scumptous main courese</h1>
+                        
+                    
+                </div>
+            </div>
+            <div id="SE">
+                <a ui-sref="desserts" ui-sref-active="active"><img src="images/dessert.jpg" width="1000" height="300" alt="Image"></a>
+                <div>
+                    <a ui-sref="desserts" ui-sref-active="active"><h1>Desserrts</h1></a>
+                    <h1> Desserts made for you</h1>
+                </div>
+            </div>
+            <div id="SW">
+                <a ui-sref="drinks" ui-sref-active="active"><img src="images/drinks.jpg" width="1000" height="300" alt="Image"></a>
+                <div>
+                    <a ui-sref="entree" ui-sref-active="active"><h1>Drinks</h1></a>
+                    <h1>Best aged old wines</h1>
+                </div>
+            </div>
+</div>
+        
+
+    </div>
+
+    </div>
+
+
+
+
+

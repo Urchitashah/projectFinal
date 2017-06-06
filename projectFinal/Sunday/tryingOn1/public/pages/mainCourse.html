@@ -1,0 +1,45 @@
+﻿<div id="body">
+    <div id="figure">
+        <img src="images/headline-menu.jpg" alt="Image">
+        <span>Check out all the amazing desserts we have</span>
+    </div>
+    <form ng-controller="mainCourse" ng-submit="add()">
+        <div>
+            <table ng-repeat="main in items">
+
+
+                <tr>
+
+                    <td>
+                        <img src="{{main.src}}" alt="dessertsImage" width="220" height="190">
+                        <div>
+
+                            <h2>
+                                {{main.name}} &#36;{{main.cost}}
+                            </h2>
+                            <input type="submit" value="Add" />
+                        </div>
+                    </td>
+                <tr>
+                    <td>
+                        <img src="{{main.src}}" alt="dessertsImage" width="220" height="190">
+                        <div>
+
+                            <h2>
+                                {{main.name}} &#36;{{main.cost}}
+                            </h2>
+                            <input type="submit" value="Add" />
+                        </div>
+                    </td>
+
+                </tr>
+
+
+
+
+            </table>
+
+        </div>
+    </form>
+
+</div>
